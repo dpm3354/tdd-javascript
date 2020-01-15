@@ -1,0 +1,14 @@
+Fibonacci Numbers Example
+
+Notes:
+
+* I gave this as homework after Chapter 17 
+* Students able to do this or StringCalculator - their choice
+* Its too much to give fib or strcalc AND chapters 18-20.  18-20 are time consuming if students don't know python
+
+
+mine01
+* test to get 0 back for 0
+* test to get 1 back from 1
+* the default implementation was obviously recursive at this point.  (all tests pass from now on -> done)
+
