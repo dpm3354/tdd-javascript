@@ -4,7 +4,8 @@ class Dollar extends Money {
 
     constructor(amount) {
         super();
-        this.amount = amount
+        this.amount = amount;
+        this.currency = "USD"
     }
 
     times(multiplier) {
@@ -14,4 +15,4 @@ class Dollar extends Money {
     }
 }
 
-module.exports.Dollar = Dollar;
+module.exports = Dollar;

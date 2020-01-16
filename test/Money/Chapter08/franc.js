@@ -3,7 +3,7 @@ const Money = require('./money');
 class Franc extends Money {
 
     constructor(amount) {
-        super()
+        super();
         this.amount = amount
     }
 

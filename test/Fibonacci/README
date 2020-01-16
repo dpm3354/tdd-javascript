@@ -12,3 +12,6 @@ mine01
 * test to get 1 back from 1
 * the default implementation was obviously recursive at this point.  (all tests pass from now on -> done)
 
+
+
+Money -Ch8 and 9 cant be completed because you cant call a child class constructor from the parent in javascript.
