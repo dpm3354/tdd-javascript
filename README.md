@@ -7,3 +7,7 @@ Run all tests:
     mocha --recursive
 Run one class:
     mocha ""
+
+
+Chapter 13 of Money
+    Can't have circular dependency between Money and Sum

@@ -7,7 +7,7 @@ describe("Money Test Chapter 8", () => {
     describe("Multiplier", () => {
 
         // it('Test multiplication for Dollar', () => {
-        //     var five = new Money().toDollar(5)
+        //     var five = Money.toDollar(5);
         // });
 
         it('Test Equality for Dollar', () => {
