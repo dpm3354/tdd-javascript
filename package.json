@@ -4,8 +4,8 @@
   "description": "Mocha: https://mochajs.org/ npm install mocha",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "nyc --reporter html --reporter text npm test"
+    "test": "jest ",
+    "coverage": "jest --coverage" 
   },
   "keywords": [],
   "author": "Kyle Brueggeman",
