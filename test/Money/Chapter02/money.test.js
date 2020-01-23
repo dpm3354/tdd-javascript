@@ -4,13 +4,13 @@ var assert = require('assert');
 describe("Money Test Chapter 2", () => {
     describe("Dollar Multiplier", () => {
 
-        it('Test multiplication', () => {
+        test('Test multiplication', () => {
             var five = new Dollar(5);
             var product = five.times(2);
             assert.equal(10, product.amount)
         });
 
-        it('Test multiplication 2', () => {
+        test('Test multiplication 2', () => {
             var five = new Dollar(5);
             var product = five.times(2);
             assert.equal(10, product.amount)
@@ -18,7 +18,7 @@ describe("Money Test Chapter 2", () => {
             assert.equal(15, product.amount)
         });
 
-        it('Two objects equal', () => {
+        test('Two objects equal', () => {
             assert.equal(true, new Dollar(5).equals(new Dollar(5)))
         });
     });

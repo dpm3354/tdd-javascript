@@ -12,7 +12,7 @@ describe("Triangle", () => {
 
     describe("Test Triangle", () => {
 
-        it('Test', () => {
+        test('Test', () => {
             let triangle = new Triangle(0, 0, 0);
             expect(() => triangle.getType()).to.throw(InvalidTriangleException)
         });

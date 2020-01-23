@@ -4,7 +4,8 @@
   "description": "Mocha: https://mochajs.org/ npm install mocha",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jest",
+    "coverage": "nyc --reporter html --reporter text npm test"
   },
   "keywords": [],
   "author": "Kyle Brueggeman",
@@ -22,10 +23,9 @@
   },
   "homepage": "https://gitlab.com/bftft/tdd-in-javascript#readme",
   "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/node": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
-    "babel-cli": "^6.26.0",
-    "chai": "^4.2.0"
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "chai": "^4.2.0",
+    "jest": "^25.1.0",
+    "nyc": "^15.0.0"
   }
 }

@@ -1,6 +1,7 @@
 class Dollar {
 
-    constructor() {
+    constructor(amount) {
+        this.amount = amount
     }
 
     times(multiplier) {
@@ -10,7 +11,7 @@ class Dollar {
     }
 
     equals(dollar) {
-        return dollar.amount === amount
+        return dollar.amount === this.amount
     }
 }
 
