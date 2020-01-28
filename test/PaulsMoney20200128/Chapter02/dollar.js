@@ -5,7 +5,7 @@ class Dollar{
     }
 
     times(multiple){
-        this.amount *= multiple;
+        return new Dollar(this.amount * multiple);
     }
 }
 
