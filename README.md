@@ -1,13 +1,56 @@
+    
+# Project Setup
 
-Mocha: https://mochajs.org/
-npm install mocha
+
+### Project Setup
+
+Before starting the install process, check to see what is already installed. At command line type to verify tool installation:
+
+```
+node -v
+npm -v
+npm jest -v
+```
+
+#### Install Tools:
+- [Install Node](https://nodejs.org/en/download/package-manager/)
+- [Install Jest](https://jestjs.io/docs/en/getting-started)
+
+#### Quick install using dev dependencies in package.json
+```
+npm install
+```
+
+
+#### Validate Installations
+At command line type to verify tool installation:
+
+```
+node -v
+npm -v
+npm jest -v
+```
+
+#### Run Tests
 
 Run all tests:
-    in base directory:
-    mocha --recursive
-Run one class:
-    mocha ""
+```
+npm test
+```
+
+Run singular test:
+```
+npm test path/to/test.test.js
+```
+Example: 
+```
+npm test test/Fibonacci/fibonacci.test.js
+
+```
 
 
-Chapter 13 of Money
-    Can't have circular dependency between Money and Sum
+Run tests with coverage:
+
+```
+npm run coverage
+```

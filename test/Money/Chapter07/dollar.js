@@ -8,9 +8,7 @@ class Dollar extends Money {
     }
 
     times(multiplier) {
-        //this.amount = this.amount * multiplier;
-        var dollar = Object.assign({}, this); // Needed to get a new memory object
-        return new Dollar(dollar.amount * multiplier)
+        return new Dollar(this.amount * multiplier);
     }
 }
 

@@ -20,8 +20,8 @@ class Money {
     }
 
     times(multiplier) {
-        var money = Object.assign({}, this); // Needed to get a new memory object
-        return new Money(money.amount * multiplier, this.currency)
+        return new Money(this.amount * multiplier, this.currency)
+
     }
 
     getCurrency() {
