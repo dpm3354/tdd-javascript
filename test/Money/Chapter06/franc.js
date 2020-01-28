@@ -9,8 +9,8 @@ class Franc extends Money {
 
     times(multiplier) {
         //this.amount = this.amount * multiplier;
-        var franc = Object.assign({}, this); // Needed to get a new memory object
-        return new Franc(franc.amount * multiplier)
+        return new Franc(this.amount * multiplier);
+
     }
 }
 
