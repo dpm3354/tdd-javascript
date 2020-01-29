@@ -28,5 +28,6 @@ describe("Money Test Chapter 3", () => {
             assert.equal(new Dollar(5).equals(new Dollar(5)), true);
             assert.equal(new Dollar(5).equals(new Dollar(6)), false);
         });
+
     });
 });
