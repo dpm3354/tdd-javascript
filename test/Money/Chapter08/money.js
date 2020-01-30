@@ -1,4 +1,3 @@
-
 class Money {
     amount;
 
@@ -11,7 +10,7 @@ class Money {
         throw new Error("Times method must be implemented in the child class.")
     }
 
-    static toDollar(amount){
+    static toDollar(amount) {
         return new Dollar(5);
     }
 }

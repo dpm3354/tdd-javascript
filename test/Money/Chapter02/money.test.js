@@ -1,5 +1,4 @@
 const Dollar = require("./dollar").Dollar;
-var assert = require('assert');
 
 describe("Money Test Chapter 2", () => {
     describe("Dollar Multiplier", () => {
@@ -7,19 +6,19 @@ describe("Money Test Chapter 2", () => {
         test('Test multiplication', () => {
             var five = new Dollar(5);
             var product = five.times(2);
-            assert.equal(10, product.amount)
+            expect(product.amount).toBe(10)
         });
 
-        test('Test multiplication 2', () => {
+        test('Test multiplication for Dollar', () => {
             var five = new Dollar(5);
             var product = five.times(2);
-            assert.equal(10, product.amount)
-            product = five.times(3)
-            assert.equal(15, product.amount)
+            expect(product.amount).toBe(10);
+            product = five.times(3);
+            expect(product.amount).toBe(15);
         });
 
         test('Two objects equal', () => {
-            assert.equal(true, new Dollar(5).equals(new Dollar(5)))
+            expect(new Dollar(5)).toStrictEqual(new Dollar(5));
         });
     });
 });

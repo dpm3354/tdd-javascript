@@ -1,29 +1,26 @@
 const Palindrome = require('./palindrome');
-const assert = require('assert');
-
-let palindrome;
 
 describe("Palindrome", () => {
 
     describe("Test Palindrome", () => {
         test('Test simple palindrome', () => {
-            assert.equal(new Palindrome().isPalindrome("a"), true);
+            expect(new Palindrome().isPalindrome("a")).toBe(true);
         });
 
         test('Test aa', () => {
-            assert.equal(new Palindrome().isPalindrome("aa"), true);
+            expect(new Palindrome().isPalindrome("aa")).toBe(true);
         });
 
         test('Test 11', () => {
-            assert.equal(new Palindrome().isPalindrome("11"), true);
+            expect(new Palindrome().isPalindrome("11")).toBe(true);
         });
 
         test('Test bab', () => {
-            assert.equal(new Palindrome().isPalindrome("bab"), true);
+            expect(new Palindrome().isPalindrome("bab")).toBe(true);
         });
 
         test('Test ba', () => {
-            assert.equal(new Palindrome().isPalindrome("ba"), false);
+            expect(new Palindrome().isPalindrome("ba")).toBe(false);
         });
 
     });
