@@ -11,8 +11,7 @@
   "author": "Kyle Brueggeman",
   "license": "ISC",
   "dependencies": {
-    "esm": "^3.2.25",
-    "mocha": "^7.0.0"
+    "esm": "^3.2.25"
   },
   "repository": {
     "type": "git",
