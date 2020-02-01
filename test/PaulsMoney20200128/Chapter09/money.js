@@ -6,6 +6,9 @@ class Money{
     equals(money){
         return money.amount == this.amount && money.constructor.name == this.constructor.name;
     }
+    getCurrency(){
+        return this.currency;
+    }
 }
 
 module.exports = Money;
