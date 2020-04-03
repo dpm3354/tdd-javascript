@@ -23,4 +23,12 @@ describe("Tester Test", () => {
             assert.ok(isJsonString(JSON.stringify(tester)), "syntax is not correct");
         });
     });
+    describe("Tester contains correct properties", () => {
+        test('Test name exists', () => {
+            assert.ok(tester.Name, "this tester should have a name");
+        });
+        test('Test warm body', () => {
+            assert.equal(tester.warmBody, true, "this tester should have a warm body");
+        });
+    });
 });
