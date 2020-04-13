@@ -1,6 +1,6 @@
-//const Tester = require("./tester").tester;
+// Runs best with "runTestsByPath" option. ex: jest --runTestsByPath ./tester.answer.test.js
 var assert = require('assert');
-var tester = require('./tester.js');
+var tester = require('./tester.answer.js');
 
 
 function isJsonString (jsonString){

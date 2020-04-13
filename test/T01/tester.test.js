@@ -1,4 +1,3 @@
-//const Tester = require("./tester").tester;
 var assert = require('assert');
 var tester = require('./tester.js');
 
