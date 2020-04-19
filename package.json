@@ -1,0 +1,28 @@
+{
+  "name": "tdd-in-javascript",
+  "version": "1.0.0",
+  "description": "Mocha: https://mochajs.org/ npm install mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Kyle Brueggeman",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bftft/tdd-in-javascript.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/bftft/tdd-in-javascript/issues"
+  },
+  "homepage": "https://gitlab.com/bftft/tdd-in-javascript#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "jest": "^25.1.0"
+  }
+}
